@@ -2,8 +2,6 @@
 
 A machine learning project that predicts monthly rental prices for apartments in Pune, built end-to-end — from raw, messy real estate data to a deployed interactive prediction app.
 
-**[Live Demo](#)** 
-
 ![App Screenshot] <img width="691" height="835" alt="image" src="https://github.com/user-attachments/assets/355dd23f-958c-4769-9096-9461dfc18b36" />
  
 
