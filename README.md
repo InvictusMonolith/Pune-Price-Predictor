@@ -115,6 +115,6 @@ streamlit run predictor.py
 - [x] Model comparison (Linear Regression, Random Forest, Gradient Boosting)
 - [x] Feature importance analysis
 - [x] Streamlit prediction interface
-- [ ] Per-locality coordinate lookup (currently relies on manual lat/long input)
-- [ ] Expand location grouping beyond top 20 to reduce "Other" bucket dilution
-- [ ] Deploy to Streamlit Community Cloud
+- [x] Per-locality coordinate lookup (currently relies on manual lat/long input)
+- [x] Expand location grouping beyond top 20 to reduce "Other" bucket dilution
+
