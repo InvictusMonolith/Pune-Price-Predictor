@@ -46,7 +46,7 @@ Two remaining items from the Phase 2 roadmap:
 
 ---
 
-## Summary of Today's Mistakes (and why they're worth keeping in the log)
+## Summary of Mistakes (and why they're worth keeping in the log)
 1. Assumed a big accuracy jump was good news before checking for data leakage.
 2. Added a lookup table but forgot to connect it to the UI inputs it was meant to replace.
 
