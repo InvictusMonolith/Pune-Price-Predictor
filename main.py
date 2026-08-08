@@ -67,7 +67,6 @@ def predict_rent(request: RentalRequest):
         if selected_type_col in input_dict:
             input_dict[selected_type_col] = 1.0
 
-        # Convert to DataFrame in expected order
         input_data = pd.DataFrame([input_dict], columns=MODEL_COLUMNS)
 
         # Generate prediction

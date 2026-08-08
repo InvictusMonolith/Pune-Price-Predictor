@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(page_title="Pune Rental Predictor", page_icon="🏠")
-
 st.title("🏠 Pune Rental Price Predictor")
 st.write("Find out the fair market rent for flats across Pune's micro-markets.")
 
