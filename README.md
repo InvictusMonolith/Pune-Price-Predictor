@@ -7,6 +7,9 @@ A machine learning project that predicts monthly rental prices for apartments in
 
 **[Live Demo](#)** *(https://pune-price-predictor.streamlit.app/)*
 
+Note: the API is hosted on Render's free tier, which spins down after inactivity — the first prediction after a period of no traffic may take 20-50 seconds while the service wakes up. Subsequent requests are fast.
+
+
 ![App Screenshot](#) *(<img width="867" height="876" alt="image" src="https://github.com/user-attachments/assets/ac5c3710-91d0-495e-8937-ab3d8c34b3bd" />
 )*
 
