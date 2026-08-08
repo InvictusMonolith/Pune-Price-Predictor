@@ -3,6 +3,8 @@
 A machine learning project that predicts monthly rental prices for apartments in Pune — built end-to-end from raw, messy real estate data to a containerized, publicly deployed prediction API with a live interface.
 
 **[Live API](#)** *(https://puneprice-predictor.onrender.com)*
+
+
 **[Live Demo](#)** *(https://pune-price-predictor.streamlit.app/)*
 
 ![App Screenshot](#) *(<img width="867" height="876" alt="image" src="https://github.com/user-attachments/assets/ac5c3710-91d0-495e-8937-ab3d8c34b3bd" />
