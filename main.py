@@ -6,7 +6,6 @@ from typing import Literal
 
 app = FastAPI()
 
-# Load trained model
 model = joblib.load("rent_model.joblib")
 
 MODEL_COLUMNS = [

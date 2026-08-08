@@ -8,7 +8,6 @@ st.set_page_config(page_title="Pune Rental Predictor", page_icon="🏠")
 st.title("🏠 Pune Rental Price Predictor")
 st.write("Find out the fair market rent for flats across Pune's micro-markets.")
 
-# Cache CSV loading to optimize app execution speed
 @st.cache_data
 def load_locality_coords():
     try:
@@ -68,8 +67,7 @@ if st.button("Predict Rent", type="primary"):
             rent = result.get("predicted_rent", 0)
             st.success(f"💰 Estimated Monthly Rent: **₹ {rent:,.2f}**")
         else:
-            st.error(f"Server error ({response.status_code}): {response.text}")
-            
+            st.error(f"Server error ({response.status_code}): {response.text}")           
     except requests.exceptions.ConnectionError:
         st.error("Could not connect to FastAPI server. Make sure Uvicorn is running on port 8000!")
     except Exception as e:
