@@ -58,7 +58,7 @@ if st.button("Predict Rent", type="primary"):
     }
 
     try:
-        BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000/predict")
+        BACKEND_URL = os.getenv("BACKEND_URL", "https://puneprice-predictor.onrender.com/predict")
         response = requests.post(BACKEND_URL, json=payload, timeout=10)
         
         if response.status_code == 200:
