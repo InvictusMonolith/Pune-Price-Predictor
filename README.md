@@ -93,7 +93,7 @@ Streamlit UI  →  HTTP POST  →  FastAPI /predict (Dockerized, deployed on Ren
 
 ### Option 1 — Docker (recommended, matches production)
 ```bash
-git clone https://github.com/InvictusMonolith/Pune-Price-Predictor.git
+git clone https://github.com/sumitbhendarkar/Pune-Price-Predictor.git
 cd Pune-Price-Predictor
 docker build -t pune-rent-api .
 docker run -p 8000:8000 pune-rent-api
